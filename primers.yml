@@ -1,0 +1,6 @@
+name: camtest
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+prefix: C:\Users\tommo\anaconda3\envs\camtest
