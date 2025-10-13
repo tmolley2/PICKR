@@ -24,23 +24,35 @@ Primer PICKR was developed and tested on:
 
 ## 2. Installation Guide
 
-The access teh tool, www.primerpickr.com hosts the active database. To regerenate the databse yourself, refere tot eh codes outlined int his github and use the following: 
+The access teh tool, www.primerpickr.com hosts the active database. To regerenate the database yourself, refere tot eh codes outlined int his github and use the following: 
 
 bash
 git clone https://github.com/your-org/primer-pickr.git
 cd primer-pickr
 python3 -m venv venv
 source venv/bin/activate
+
+
 iinstall the following packages:
+
 pandas
+
 os
+
 glob
+
 pathlib
+
 tqdm
+
 gzip
+
 numpy
+
 scipy
+
 bio.seq
+
 re
 
 
