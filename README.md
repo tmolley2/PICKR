@@ -31,7 +31,18 @@ git clone https://github.com/your-org/primer-pickr.git
 cd primer-pickr
 python3 -m venv venv
 source venv/bin/activate
-pip install -r requirements.txt
+iinstall the following packages:
+pandas
+os
+glob
+pathlib
+tqdm
+gzip
+numpy
+scipy
+bio.seq
+re
+
 
 ## 3. Demo
 
