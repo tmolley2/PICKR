@@ -54,7 +54,54 @@ scipy
 bio.seq
 
 re
+### Installing BLAST+ Locally
 
+This project relies on NCBI BLAST+ for sequence alignment and primer validation. BLAST+ must be installed locally and accessible from your command line.
+
+1. Check if BLAST is Already Installed
+
+Open a terminal (or Anaconda Prompt on Windows) and run:
+
+blastn -version
+
+
+If BLAST is installed, you should see version information. If not, follow the instructions below.
+
+macOS
+
+### Option A: Install via Homebrew (recommended)
+
+If you don’t have Homebrew, install it first:
+
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+
+Then install BLAST:
+
+brew install blast
+
+
+Verify installation:
+
+blastn -version
+
+
+### Option B: Manual Installation
+
+Download the macOS BLAST+ binaries from NCBI:
+https://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/LATEST/
+
+Extract the archive:
+
+tar -xzf ncbi-blast-*-x64-macosx.tar.gz
+
+
+Add BLAST to your PATH (replace path as needed):
+
+export PATH=$PATH:/path/to/ncbi-blast-*/bin
+
+
+Add this line to ~/.zshrc or ~/.bashrc to make it permanent.
 
 ## 3. Demo
 
