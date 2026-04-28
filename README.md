@@ -234,3 +234,14 @@ However, results may differ if:
 - different transcript sets are used (e.g., RefSeq vs Ensembl)
 - mismatch thresholds or amplicon constraints are changed
 
+### License
+
+[![CC BY-NC 4.0][cc-by-nc-shield]][cc-by-nc]
+
+This work is licensed under a [Creative Commons Attribution-NonCommercial 4.0 International License][cc-by-nc].
+
+Commercial licensing is available through UC San Diego's Office of Innovation and Commercialization.
+
+[cc-by-nc]: https://creativecommons.org/licenses/by-nc/4.0/
+[cc-by-nc-shield]: https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg
+
