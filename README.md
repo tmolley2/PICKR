@@ -236,9 +236,9 @@ However, results may differ if:
 
 ### License
 
-[![CC BY-NC 4.0][cc-by-nc-shield]][cc-by-nc]
+[![CC BY-NC-ND 4.0][cc-by-nc-nd-shield]][cc-by-nc-nd]
 
-This work is licensed under a [Creative Commons Attribution-NonCommercial 4.0 International License][cc-by-nc].
+This work is licensed under a [Creative Commons Attribution-NonCommercial 4.0 International License][cc-by-nc-nd].
 
 Commercial licensing is available through UC San Diego's Office of Innovation and Commercialization.
 
